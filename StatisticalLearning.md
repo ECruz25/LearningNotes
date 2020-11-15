@@ -42,5 +42,7 @@ We need data to construct prediction rules, often a lot of it. We thus suppose w
 Given a vector of inputs $X^T=(X_1, X_2,...,X_p)$, we predict the output of $Y$ with the model. 
 > $\hat{Y}=\hat{\beta_0}+\sum_{j=1}^{p} X_j \hat{\beta_j}$
 
-The term $\hat{\beta_0}$ is the intercept, also known as the bias in ML. Often it is convenient to include the constant variable 1 in $X$, include $\hat{\beta_0}$
+The term $\hat{\beta_0}$ is the intercept, also known as the bias in ML. Often it is convenient to include the constant variable 1 in $X$, include $\hat{\beta_0}$, and then write the linear model in vector for as an inner product 
 > $\hat{Y}=X^T\hat{\beta}$
+
+where $X^T$ denotes vector or matrix transpose ($X$ is being a column vector). 
